@@ -1,0 +1,4 @@
+prototipos de la tres pantallas  del sistema de control de prestamos de la biblioteca escolar :
+1.pantalla principal .
+2. registro de libros .
+3.prestamos y devoluciones 
