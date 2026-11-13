@@ -1,41 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control de prestamos de la biblioteca </title>
+    <title>Control de préstamos de la biblioteca</title>
 </head>
 <body>
-   <h1>Control de préstamos de la biblioteca</h1>
 
-   <h2>Registrar libros</h2>
+    <h1>Control de préstamos de la biblioteca</h1>
 
-   <form>
-     <label>Título del libro:</label>
-     <input type="text" placeholder="Escribe el título">
+    <!-- HU-01: Registrar libros -->
 
-     <br><br>
+    <h2>Registrar libros</h2>
 
-     <label>Autor:</label>
-     <input type="text" placeholder="Escribe el autor">
+    <form>
+        <label>Título del libro:</label>
+        <input type="text" placeholder="Escribe el título">
 
-     <br><br>
+        <br><br>
 
-     <label>Categoría:</label>
-     <input type="text" placeholder="Escribe la categoría">
+        <label>Autor:</label>
+        <input type="text" placeholder="Escribe el autor">
 
-     <br><br>
+        <br><br>
 
-     <label>ISBN:</label>
-     <input type="text" placeholder="Escribe el ISBN">
+        <label>Categoría:</label>
+        <input type="text" placeholder="Escribe la categoría">
 
-     <br><br>
+        <br><br>
 
-     <button type="button">Registrar libro</button>
-   </form> 
+        <label>ISBN:</label>
+        <input type="text" placeholder="Escribe el ISBN">
 
+        <br><br>
 
-    
+        <button type="button">Registrar libro</button>
+    </form>
+
     <hr>
 
     <!-- HU-02: Consultar libros disponibles -->
@@ -43,7 +44,6 @@
     <h2>Consultar libros disponibles</h2>
 
     <table border="1">
-
         <thead>
             <tr>
                 <th>Título</th>
@@ -55,10 +55,9 @@
 
         <tbody id="listaLibros">
         </tbody>
-
     </table>
 
-     <hr>
+    <hr>
 
     <!-- HU-03: Registrar préstamos -->
 
@@ -93,35 +92,35 @@
         <button type="button">Registrar préstamo</button>
     </form>
 
-
     <hr>
 
-<!-- HU-04: Registrar devoluciones -->
+    <!-- HU-04: Registrar devoluciones -->
 
-<h2>Registrar devoluciones</h2>
+    <h2>Registrar devoluciones</h2>
 
-<form>
-    <label>Nombre del estudiante:</label>
-    <input type="text" placeholder="Escribe el nombre">
+    <form>
+        <label>Nombre del estudiante:</label>
+        <input type="text" placeholder="Escribe el nombre">
 
-    <br><br>
+        <br><br>
 
-    <label>Matrícula del estudiante:</label>
-    <input type="text" placeholder="Escribe la matrícula">
+        <label>Matrícula del estudiante:</label>
+        <input type="text" placeholder="Escribe la matrícula">
 
-    <br><br>
+        <br><br>
 
-    <label>Nombre del libro:</label>
-    <input type="text" placeholder="Escribe el nombre del libro">
+        <label>Nombre del libro:</label>
+        <input type="text" placeholder="Escribe el nombre del libro">
 
-    <br><br>
+        <br><br>
 
-    <label>Fecha de devolución:</label>
-    <input type="date">
+        <label>Fecha de devolución:</label>
+        <input type="date">
 
-    <br><br>
+        <br><br>
 
-    <button type="button">Registrar devolución</button>
-</form>
+        <button type="button">Registrar devolución</button>
+    </form>
+
 </body>
 </html>
